@@ -1,0 +1,37 @@
+[{
+	"caption": "Edit",
+	"mnemonic": "E",
+	"id": "edit",
+	"children": [{
+		"caption": "-"
+	}, {
+		"command": "html_beautifulsoup",
+		"id": "html_beautifulsoup",
+		"caption": "HTML BeautifulSoup"
+	}]
+}, {
+	"caption": "Preferences",
+	"mnemonic": "n",
+	"id": "preferences",
+	"children": [{
+		"caption": "Package Settings",
+		"mnemonic": "P",
+		"id": "package-settings",
+		"children": [{
+			"caption": "HTML BeautifulSoup",
+			"children": [{
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/html-beautifulsoup-prettify/HTMLBeautifulSoup.sublime-settings"
+				},
+				"caption": "Settings – Default"
+			}, {
+				"command": "open_file",
+				"args": {
+					"file": "${packages}/User/HTMLBeautifulSoup.sublime-settings"
+				},
+				"caption": "Settings – User"
+			}]
+		}]
+	}]
+}]

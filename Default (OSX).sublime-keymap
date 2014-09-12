@@ -1,0 +1,9 @@
+[{
+	"keys": ["super+alt+shift+z"],
+	"command": "html_beautifulsoup",
+	"context": [{
+		"key": "selector",
+		"operator": "equal",
+		"operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"
+	}]
+}]
