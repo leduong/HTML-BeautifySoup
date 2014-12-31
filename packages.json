@@ -1,12 +1,15 @@
 {
-	"schema_version": "3.0.0",
+	"schema_version": "2.0.0",
 	"name": "HTML BeautifySoup",
 	"details": "https://github.com/leduong/HTML-BeautifySoup",
-	"releases": [
-		{
-			"sublime_text": "*",
-			"platforms": ["osx", "linux"],
-			"tags": true
-		}
-	]
+	"releases": [{
+		"sublime_text": "*",
+		"date": "2014-08-11 01:18:49",
+		"sublime_text": ">=3000",
+		"version": "1.0.0",
+		"url": "https://codeload.github.com/leduong/HTML-BeautifySoup/zip/1.0.0",
+		"platforms": [
+			"*"
+		]
+	}]
 }
