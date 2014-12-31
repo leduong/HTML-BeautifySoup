@@ -1,0 +1,11 @@
+{
+	"name": "HTML BeautifySoup",
+	"details": "https://github.com/leduong/HTML-BeautifySoup",
+	"releases": [
+		{
+			"sublime_text": "*",
+			"platforms": ["osx", "linux"],
+			"tags": true
+		}
+	]
+}
